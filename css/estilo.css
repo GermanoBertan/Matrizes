@@ -1,0 +1,89 @@
+tr td{
+    background-color: rgb(85, 224, 85);
+    color: rgb(1, 53, 1);
+    border: 2px solid rgb(1, 53, 1);
+    border-collapse: collapse;
+    padding: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 25px;
+}
+td{
+    padding: 10px;
+}
+thead tr td{
+    background-color: white;
+    color: black;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px sold black;
+}
+table{
+    border: 2px solid rgb(1, 53, 1);
+    background-color: rgb(204, 203, 203);
+    table-layout: fixed;
+    text-align: center;
+    margin: 15px;
+}
+#div1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4%;
+}
+#sinal{
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: white;
+}
+#sinalTable{
+    border: 0px solid white;
+}
+#titulo{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+}
+#titulo1{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+p{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#rodape{
+    background-color: green;
+    color: white;
+    font-size: 11px;
+    padding-left: 2%;
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    color:rgb(255, 0, 255);
+}
+#tituloerro{
+    color: rgb(146, 1, 25);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+#textoerro{
+    color: rgb(146, 1, 25);
+    text-align: center;
+    font-size: 18px;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 40px;
+}
